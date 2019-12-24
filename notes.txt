@@ -1,0 +1,21 @@
+Features to decide a tennis match
+- surface
+- player rankings (difference)
+- round
+- tournament level
+- player traits (hand, height, age, speed?)
+- win % by surface/ tournament
+- elo
+- titles
+- career best ranking
+- 
+
+Window approach
+- look at results for past year
+	- overall w/l
+	- surface
+	- win% against player facing
+	- average rank of opponent
+
+
+	
