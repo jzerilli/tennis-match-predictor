@@ -3,7 +3,7 @@
 <!--From https://codepen.io/frytyler/pen/EGdtg-->
 <head>
   <meta charset="UTF-8">
-  <title>ML API</title>
+  <title>ATP Match Predictor</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
@@ -22,24 +22,56 @@
 
       <br>
 
+      <select required="required" name="P1 Entry">
+        <option selected disabled>Select Player 1 Entry</option>
+        <option value="R">Regular Entry</option>
+        <option value="Q">Qualifier</option>
+        <option value="W">Wildcard</option>
+      </select>
+
+      <br>
+
       <input type="text" name="p2_name" placeholder="Player 2" required="required" />
+
+      <br>
+
+      <select name="P2 Entry">
+        <option selected disabled>Select Player 2 Entry</option>
+        <option value="R">Regular Entry</option>
+        <option value="Q">Qualifier</option>
+        <option value="W">Wildcard</option>
+      </select>
 
       <br>
       
       <select name="Surface">
         <option selected disabled>Select a Surface</option>
-        <option value="Hard">Hard</option>
-        <option value="Clay">Clay</option>
-        <option value="Grass">Grass</option>
+        <option value="H">Hard</option>
+        <option value="C">Clay</option>
+        <option value="G">Grass</option>
+      </select>
+
+      <br>
+
+      <select name="Level">
+        <option selected disabled>Select a Tournament Level</option>
+        <option value="500">250/500</option>
+        <option value="1000">Masters</option>
+        <option value="1500">Tour Finals</option>
+        <option value="2000">Grand Slam</option>
       </select>
 
       <br>
 
       <select name="Round">
         <option selected disabled>Select a Round</option>
-        <option value="Final">Final</option>
-        <option value="Semis">Semis</option>
-        <option value="Quarters">Quarters</option>
+        <option value="Final">First Round/ RR</option>
+        <option value="Semis">Second Round</option>
+        <option value="Semis">Third Round</option>
+        <option value="Semis">Round of 16</option>
+        <option value="Quarters">Quarterfinal</option>
+        <option value="Quarters">Semifinal</option>
+        <option value="Quarters">Final</option>
       </select>
 
       <br>
