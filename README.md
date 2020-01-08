@@ -11,7 +11,7 @@ Up-to-date player data for predictions pulled from https://www.ultimatetennissta
 # Running the code locally
 1. Clone this repo
   ```
-  git clone 
+  git clone https://github.com/jzerilli/tennis-insights.git
   ```
 2. Install the dependencies:
   ```
